@@ -1,3 +1,84 @@
-The Data Controller is Kyndryl GSDC Polska Sp. z o.o. with its principal office in ul. Muchoborska 8, 54-424 Wroclaw, Polska (Kyndryl).
-Kyndryl processes personal data contained in the CIC Application and documentation related to supporting Remote Work in relation to using Remote Work (Journal of Laws of 2023, item 240, Act of December 1, 2022 amending the Act - Labor Code and some other acts).
-You may contact Kyndryl’s Data Protection Officer via a contact form 
+[4:49 PM] VOLODYMYR KHOMCHYK
+
+
+
+
+git init - ініціалізація репозиторія
+
+ 
+
+git add . - додати всі зміни до індексу
+
+ 
+
+git commit - створити коміт на основі проіндексованих змін
+
+            -m "Назва коміту" - скорочений варіант
+
+ 
+
+git log - історія комітів
+
+        --oneline - в одну строку
+
+ 
+
+git diff - переглянути незафіксовані змін
+
+ 
+
+git diff --staged - переглянути зафіксовані зміни
+
+ 
+
+///////////////////////////
+
+ 
+
+git remote - команда для керування віддаленими репозиторіями
+
+git remote -v - перевірка підв'язки віддаленого репозиторія
+
+ 
+
+git push origin <гілка> - завантажити зміни на віддалений репозиторій
+
+ 
+
+git clone <адреса> - зклонувати віддалений репозиторій до себе на пк
+
+ 
+
+//////////////////////////
+
+ 
+
+git restore - відновлює стан файлу до останнього коміту
+
+           --staged - повертає файл з індексації (зміни не будуть індексовані)
+
+
+////////////////////////
+
+ 
+
+git branch <ім'я гілки> - команда для створення нової гілки
+
+           -m - перейменовує гілку
+
+
+git branch (без аргументів) - показує всі наявні гілки в поточному репозиторії
+ 
+git checkout <ім'я гілки>
+
+git switch <ім'я гілки>    - команди, які перемикають гілку
+
+//////////////////////////////////
+
+git push origin dev    // завантажує гілку dev на гітхаб
+
+git push origin test   // завантажує гілку test на гітхаб
+
+git push origin main // завантажує гілку main на гітхаб
+
+
